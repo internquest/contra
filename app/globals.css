@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+
+@layer components {
+  .contra-btn {
+    @apply before:content-[''] before:absolute before:z-[-1] before:inset-[-1.5px] before:rounded-[40px] before:bg-gradient-to-t before:from-[#f3ca4d] before:from-[0%] before:via-[#ff989a] before:via-[42.88%] before:to-[#cbabff] before:to-[94.62%] after:absolute after:content-[''] after:inset-0 after:z-[-1] after:h-full after:w-full after:scale-[.9] after:blur-[10px] m-0 px-[16px] py-[8px] text-[rgb(55_63_81)] border-0 after:animate-gradientAnimation cursor-pointer [font-family:inherit] text-[14px] font-semibold appearance-none relative flex justify-center items-center rounded-[40px] [transition:150ms_ease-out] h-[40px] bg-[rgb(255_255_255)] mr-[11px] gap-[6px] w-[fit-content];
+  }
+
+  .contra-btn-after::after {
+    background-image: linear-gradient(to left, rgb(255, 87, 112), rgb(228, 66, 141), rgb(196, 45, 168), rgb(158, 22, 195), rgb(101, 1, 222), rgb(158, 22, 195), rgb(196, 45, 168), rgb(228, 66, 141), rgb(255, 87, 112));
+    background-size: 200% 200%;
+    background-position: 0% 0%;
+  }
+
+  .container-type {
+    container-type: inline-size;
+  }
+
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@container (width>700px) {
+  .container-typechild {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .container-innerchild {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
