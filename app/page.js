@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="md:mt-6 flex-[1_1_0%] max-w-[1440px] w-full mx-auto bg-white relative tracking-wide duration-[750ms]">
-      <div class="outline-[none] box-border m-0 p-[24px] flex flex-col items-center bg-[rgb(255,_255,_255)] rounded-[8px]">
-        <div class="outline-[none] box-border m-0 p-0 flex flex-col gap-[16px] w-full max-w-[1140px]">
+    <div className="mt-3 md:mt-6 flex-[1_1_0%] max-w-[1440px] w-full mx-auto bg-white relative tracking-wide duration-[750ms]">
+      <div class="outline-[none] box-border m-0 p-4 md:p-[24px] flex flex-col items-center bg-[rgb(255,_255,_255)] rounded-[8px]">
+        <div class="outline-[none] box-border m-0 p-0 flex flex-col gap-[16px] w-full a576:max-w-[554px] a992:max-w-[1140px]">
           <div class="outline-[none] box-border m-0 p-0 grid items-center grid-cols-[1fr] mb-[4px] gap-[12px]">
-            <p class="outline-[none] box-border m-0 p-0 flex items-center gap-[12px] text-[34px] not-italic font-medium leading-[44px] tracking-[-0.51px]">Welcome, Shiva kumar 👋</p>
+            <p class="outline-[none] box-border m-0 p-0 flex items-center gap-[12px] text-[24px] md:text-[34px] not-italic font-medium leading-[34px] md:leading-[44px] tracking-[-0.51px]">Welcome, Shiva kumar 👋</p>
           </div>
-          <div class="outline-[none] box-border m-0 p-0 grid w-full [grid-template-areas:'actionItems_actionItems'_'invoices_projects'_'jobsBanner_jobsBanner'_'discoveryMarketing_discoveryMarketing'_'totalEarnings_totalEarnings'] grid-cols-[2fr_1fr_1fr] grid-rows-[auto,1fr_auto_auto] gap-[16px] [grid-template:'actionItems_invoices_projects'_'actionItems_jobsBanner_jobsBanner'_1fr_'discoveryMarketing_discoveryMarketing_discoveryMarketing'_'totalEarnings_totalEarnings_totalEarnings'_/_2fr_1fr_1fr]">
-            <div class="outline-[none] box-border m-0 p-0 min-w-[424px] [grid-area:actionItems]">
+          <div class="outline-[none] box-border m-0 p-0 grid w-full [grid-template-areas:'actionItems'_'invoices'_'projects'_'jobsBanner'_'discoveryMarketing'_'totalEarnings'] grid-rows-[1.2fr_repeat(2,224px)_440px_auto_auto] grid-cols-[minmax(0px,1fr)] a576:[grid-template-areas:'actionItems_actionItems'_'invoices_projects'_'jobsBanner_jobsBanner'_'discoveryMarketing_discoveryMarketing'_'totalEarnings_totalEarnings'] a576:grid-cols-[1fr_1fr] a576:grid-rows-[2fr_240px_440px_auto_auto] a992:grid-cols-[2fr_1fr_1fr] a992:grid-rows-[auto,1fr_auto_auto] gap-[16px] a992:[grid-template:'actionItems_invoices_projects'_'actionItems_jobsBanner_jobsBanner'_1fr_'discoveryMarketing_discoveryMarketing_discoveryMarketing'_'totalEarnings_totalEarnings_totalEarnings'_/_2fr_1fr_1fr]">
+            <div class="outline-[none] box-border m-0 p-0 min-w-[324px] a992:min-w-[424px] [grid-area:actionItems]">
               <div class="outline-[none] box-border m-0 p-0 flex flex-col border-[1px] border-[solid] border-[rgb(229,231,235)] [box-shadow:rgba(228,_232,_247,_0.4)_0px_0px_80px_0px] rounded-[16px] overflow-hidden h-full">
                 <h6 textstyle="text-base-semi-bold" class=" [font-size:inherit]  leading-[24px] tracking-[-0.15px] outline-[none] box-border m-0 font-semibold px-[24px] py-[20px] inline-flex gap-[8px] items-center border-b-[1px_solid_rgb(229,_231,_235)] [border-top-left-radius:inherit] [border-top-right-radius:inherit]">Your action items
                   <div size="20" variant="watermelon" class="outline-[none] box-border m-0 p-0 flex justify-center items-center rounded-[50%] w-[20px] h-[20px] bg-[rgb(255,_90,_94)] text-[rgb(255,_255,_255)]">
@@ -142,9 +142,9 @@ export default function Home() {
             <div class="outline-[none] box-border m-0 p-0 [grid-area:jobsBanner]">
               <div class="outline-[none] box-border m-0 p-0 flex flex-col gap-[24px]"></div>
               <div class="outline-[none] box-border m-0 p-[24px] flex relative flex-col justify-start overflow-hidden w-full h-full bg-[rgb(214,_233,_235)] rounded-[16px]">
-                <div class="outline-[none] box-border m-0 p-0 flex justify-center items-center absolute z-0 -bottom-1/4 right-[0%] top-[24px]">
-                  <div class="outline-[none] box-border m-0 p-0 relative z-0 top-[16px] -right-[296px]">
-                    <img alt="Jobs Banner" height="347" src="https://builds.contra.com/8ecf88a5/assets/static/jobs-banner.Dz4LzgoY.webp" srcset="https://builds.contra.com/8ecf88a5/assets/static/jobs-banner.Dz4LzgoY.webp 1x, https://builds.contra.com/8ecf88a5/assets/static/jobs-banner-2x.M8XkJMUf.webp 2x" width="555" class="outline-[none] box-border m-0 p-0 relative w-[555px] h-[347px] z-0"></img>
+                <div class="outline-[none] box-border m-0 p-0 flex justify-center items-center absolute z-0 -bottom-[25%] right-[34%] a992:top-[24px] a992:right-0">
+                  <div class="outline-[none] box-border m-0 p-0 w-[555px] h-[347px] relative z-0 top-[16px] right-[-284px] a1200:-right-[296px] a992:-right-[316px]">
+                    <img alt="Jobs Banner" height="347" src="https://builds.contra.com/8ecf88a5/assets/static/jobs-banner.Dz4LzgoY.webp" srcset="https://builds.contra.com/8ecf88a5/assets/static/jobs-banner.Dz4LzgoY.webp 1x, https://builds.contra.com/8ecf88a5/assets/static/jobs-banner-2x.M8XkJMUf.webp 2x" width="555" class="outline-[none] box-border m-0 p-0 relative  z-0"></img>
                   </div>
                 </div>
                 <div class="outline-[none] box-border m-0 p-0 flex flex-col max-w-[calc(100% - 154px)]">
@@ -164,7 +164,7 @@ export default function Home() {
               </div>
             </div>
             <div class="outline-[none] box-border m-0 p-0 [grid-area:discoveryMarketing] h-full">
-              <div class="outline-[none] box-border m-0 p-[24px] flex items-center flex-row gap-[40px] bg-no-repeat bg-auto bg-[linear-gradient(rgb(255,_255,_255)_30%,_transparent),_radial-gradient(circle_at_right_bottom,_rgb(247,_253,_252)_0%,_transparent_90%),_radial-gradient(circle_at_center_bottom,_rgb(248,_251,_252)_0%,_transparent_90%),_radial-gradient(circle_at_left_bottom,_rgb(251,_248,_253)_0%,_transparent_90%)] rounded-[16px] border-[1px] border-[solid] border-[rgb(229,231,235)] text-[rgb(74,_82,_100)] w-full">
+              <div class="outline-[none] box-border m-0 p-[24px] flex items-center flex-col gap-[40px] bg-no-repeat bg-auto a992:bg-[linear-gradient(rgb(255,_255,_255)_30%,_transparent),_radial-gradient(circle_at_right_bottom,_rgb(247,_253,_252)_0%,_transparent_90%),_radial-gradient(circle_at_center_bottom,_rgb(248,_251,_252)_0%,_transparent_90%),_radial-gradient(circle_at_left_bottom,_rgb(251,_248,_253)_0%,_transparent_90%)] rounded-[16px] border-[1px] border-[solid] border-[rgb(229,231,235)] text-[rgb(74,_82,_100)] a992:flex-row  a992:w-full">
                 <div class="outline-[none] box-border m-0 p-0 grid grid-cols-[1fr] grid-rows-[1fr] auto-cols-[1fr] auto-rows-[1fr] gap-0">
                   <div class="outline-[none] box-border m-0 p-0 [grid-area:1_/_1_/_2_/_2] flex z-0">
                     <svg class="outline-[none] box-border m-0 p-0 w-[var(--size)] h-[var(--size)]">
@@ -200,7 +200,7 @@ export default function Home() {
                       <p textstyle="overlineRegular" class=" font-semibold text-[10px] leading-[16px] tracking-[1.2px] uppercase whitespace-nowrap outline-[none] box-border m-0 p-0">NEW</p>
                     </div>
                   </div>
-                  <div textstyle="fourthLevelHeadline" class="font-[var(--font-headline)] text-[70px] font-normal tracking-[-1px] leading-[90px] outline-[none] box-border m-0 p-0 text-[rgb(20,_23,_31)]">0
+                  <div textstyle="fourthLevelHeadline" class=" text-[70px] font-normal tracking-[-1px] leading-[90px] outline-[none] box-border m-0 p-0 text-[rgb(20,_23,_31)]">0
                     <span textstyle="text-base-regular" class=" text-[16px] font-normal leading-[24px] outline-[none] box-border m-0 p-0 text-[rgb(103,_112,_132)] ml-[2px] tracking-[0.25px]">pts</span>
                   </div>
                   <p textstyle="text-base-regular" class=" text-[16px] font-normal leading-[24px] outline-[none] box-border m-0 p-0">View how you rank and get detailed insights on how to boost your score.</p>
@@ -257,12 +257,12 @@ export default function Home() {
             <div class="outline-[none] box-border m-0 p-0 [grid-area:totalEarnings] h-full">
               <div class="outline-[none] box-border m-0 p-0 flex flex-col h-full gap-[16px]">
                 <div class="outline-[none] box-border m-0 p-0 flex flex-col border-[1px] border-[solid] border-[rgb(229,231,235)] rounded-[16px] relative max-w-[calc(-32px + 100vw)] w-full [scroll-snap-align:center] h-full">
-                  <div class="outline-[none] box-border m-0 p-[24px] flex w-full gap-[8px] justify-between flex-row">
-                    <div class="outline-[none] box-border m-0 p-0 flex flex-col flex-shrink gap-[4px]">
+                  <div class="outline-[none] box-border m-0  a992:p-[24px] block a992:flex w-full gap-[8px] a992:justify-between a992:flex-row">
+                    <div class="outline-[none] box-border m-0 pt-6 px-6 pb-4 a992:p-0 flex flex-col flex-shrink gap-[4px]">
                       <p textstyle="text-xl-medium" class=" text-[23px] font-medium leading-[24px] tracking-[-0.25px] outline-[none] box-border m-0 p-0 text-[rgb(20,_23,_31)] whitespace-nowrap">Start a project</p>
                       <p textstyle="subtitleSmall" class=" font-medium text-[0.875rem] leading-[24px] outline-[none] box-border m-0 p-0 text-[rgb(103,_112,_132)] whitespace-nowrap">Start your first project with a few easy steps.</p>
                     </div>
-                    <div class="outline-[none] box-border m-0 p-0 flex overflow-x-auto">
+                    <div class="outline-[none] box-border m-0 pt-0 pr-0 pb-6 pl-6 a992:p-0 flex overflow-x-auto">
                       <div class="outline-[none] box-border m-0 p-0 flex gap-[8px] flex-shrink-0 whitespace-nowrap">
                         <a variant="V2TertiaryOutline" href="/independent/analytics" class="relative text-center normal-case inline-block w-auto [transition:150ms_ease-out] overflow-hidden cursor-pointer h-[40px] pl-[16px] pr-[16px] rounded-[20px] min-w-[75px] border border-solid border-[rgb(208,_212,_220)] bg-none bg-[rgb(255,_255,_255)] [color:inherit] outline-[none] box-border m-0 p-0 no-underline">
                           <span class="flex items-center justify-center gap-[6px] h-full opacity-100 outline-[none] box-border m-0 p-0">
@@ -343,7 +343,7 @@ export default function Home() {
                       </defs>
                     </svg>
                   </div>
-                  <div class="outline-[none] box-border m-0 pt-0 px-[24px] pb-[24px] flex flex-row justify-center gap-[16px] w-full">
+                  <div class="outline-[none] box-border m-0 flex-col pt-4 px-6 pb-6 a576:pt-0 a576:px-[24px] a576:pb-[24px] flex a576:flex-row justify-center gap-[16px] w-full">
                     <div class="outline-[none] box-border m-0 px-[16px] py-[24px] flex items-center flex-col justify-end h-full gap-[24px] bg-[rgb(245,_246,_249)] rounded-[8px] [box-shadow:rgba(228,_232,_247,_0.4)_0px_0px_80px_0px] w-full">
                       <img src="https://builds.contra.com/8ecf88a5/assets/static/invoices.Dpj4n_ea.webp" class="outline-[none] box-border m-0 p-0 max-w-[132px] w-full h-auto object-cover min-w-[148px]"></img>
                       <p textstyle="text-sm-regular" class=" text-[14px] font-normal leading-[20px] tracking-[0.15px] outline-[none] box-border m-0 p-0 text-[rgb(55,_63,_81)] text-center max-w-[264px]">Get paid on time and keep 100% of what you earn.</p>

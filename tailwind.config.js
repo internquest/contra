@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'a576': { 'min': '576px' },
         'a992': { 'min': '992px' },
-        'a1120': { 'min': '1120px' }
+        'a1120': { 'min': '1120px' },
+        'a1200': { 'min': '1200px' },
       }
       ,
       animation: {

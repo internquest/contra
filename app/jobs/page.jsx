@@ -4,10 +4,10 @@ const page = () => {
     return (
         <div className='ms:mt-0 flex-[1_1_0%] max-w-[1440px] w-full mx-auto bg-white relative transition-[width] duration-[750ms] '>
             <div class="outline-[none] box-border m-0 p-0 flex max-w-[1440px] pt-[24px]">
-                <section aria-label="Curated Job Postings" class="outline-[none] box-border mx-[auto] my-0 pt-0 px-[16px] pb-[48px] relative flex flex-col w-full gap-[24px] min-w-0 max-w-[872px]">
+                <section aria-label="Curated Job Postings" class="outline-[none] box-border mx-[auto] my-0 md:pt-0 md:px-[16px] md:pb-[48px] relative flex flex-col w-full md:gap-[24px] min-w-0 max-w-[872px]">
                     <main class="outline-[none] box-border m-0 p-0 relative flex flex-col gap-[24px] w-full">
-                        <section class="outline-[none] box-border m-0 px-0 py-[40px] relative flex flex-col gap-[24px]">
-                            <div class="outline-[none] box-border m-auto pt-[40px] px-0 pb-0 flex flex-col items-center justify-center w-full gap-[40px] max-w-[872px]">
+                        <section class="outline-[none] box-border m-0 py-2 px-0 md:px-0 md:py-[40px] relative flex flex-col gap-[24px]">
+                            <div class="outline-[none] box-border m-auto a576:pt-[40px] a576:px-0 a576:pb-0 flex flex-col items-center justify-center w-full a576:gap-[40px] max-w-[872px]">
                                 <div class="outline-[none] box-border m-0 p-0 flex flex-col items-center justify-center gap-[32px] w-full bg-[rgb(255,_255,_255)] container-type overflow-hidden relative">
                                     <div class="outline-[none] box-border m-0 pt-[16px] px-[24px] pb-0 flex flex-col items-center justify-around w-full container-type container-typechild gap-[24px]">
                                         <div class="outline-[none] box-border container-type container-innerchild m-0 p-0 flex flex-col items-center gap-[12px] w-full text-center max-w-[500px]">
@@ -49,7 +49,7 @@ const page = () => {
                                         </div>
                                     </div>
                                     <div class="outline-[none] box-border m-[unset] p-0 flex bg-[rgb(20,_23,_31)] rounded-[20px] text-[rgb(255,_255,_255)] isolate w-full border-[none] select-none flex-wrap relative overflow-hidden flex-row items-center justify-between">
-                                        <div class="outline-[none] box-border m-0 px-[40px] py-[32px] grid flex-col gap-[16px] w-full grid-cols-[1fr_minmax(auto,_248px)]">
+                                        <div class="outline-[none] box-border m-0 py-6 px-8 a992:px-[40px] a992:py-[32px] a992:grid flex flex-col z-[2] gap-[16px] w-full a992:grid-cols-[1fr_minmax(auto,_248px)]">
                                             <div class="outline-[none] box-border m-0 p-0 flex flex-col items-start gap-[8px]">
                                                 <div class="outline-[none] box-border m-0 p-0 flex flex-row w-full items-center justify-between">
                                                     <p textstyle="text-xl-medium" class=" text-[23px] font-medium leading-[32px] tracking-[-0.25px] outline-[none] box-border m-0 p-0">Skip the wait with{' '}
@@ -71,7 +71,7 @@ const page = () => {
                                                     <p textstyle="text-sm-regular" class=" text-[14px] font-normal leading-[20px] tracking-[0.15px] outline-[none] box-border m-0 p-0 text-[rgb(229,_231,_235)]">Get access to advanced analytics </p>
                                                 </div>
                                             </div>
-                                            <div class="outline-[none] group box-border m-auto p-0 w-[unset]">
+                                            <div class="outline-[none] group box-border m-auto p-0 w-full a992:w-[unset]">
                                                 <button type="button" variant="V2Gradient" backgroundcolor="white" color="black" fdprocessedid="0r9s5g" class=" relative text-center normal-case  inline-block w-full [transition:150ms_ease-out] overflow-hidden cursor-pointer h-[48px] pl-[24px] pr-[24px] rounded-[24px] min-w-[100px]  border-0 border-solid border-transparent bg-none  bg-white z-[1] !text-black [color:inherit] outline-[none] box-border m-0 p-0 [font-family:inherit] [font-size:inherit] [font-weight:inherit] appearance-none whitespace-nowrap">
                                                     <span class="flex items-center group-hover:text-black  justify-center gap-[8px] h-full opacity-100 outline-[none] box-border m-0 p-0">
                                                         <span class="h-[24px] w-[24px] outline-[none] box-border m-0 p-0">
@@ -130,7 +130,7 @@ const page = () => {
                                                 <p textstyle="text-xl-medium" class=" text-[23px] font-medium leading-[32px] tracking-[-0.25px] outline-[none] box-border m-0 p-0">2,000+</p>
                                                 <span textstyle="text-ol-medium" class=" text-[10px] font-medium leading-[16px] tracking-[1.2px] uppercase outline-[none] box-border m-0 p-0 text-[rgb(255,_255,_255)] opacity-60">Opportunities last month</span>
                                             </div>
-                                            <div class="outline-[none] box-border m-0 p-0 flex flex-col items-center gap-[4px] max-w-[130px] text-center">
+                                            <div class="outline-[none] box-border m-0 p-0 hidden a576:flex flex-col items-center gap-[4px] max-w-[130px] text-center">
                                                 <p textstyle="text-xl-medium" class=" text-[23px] font-medium leading-[32px] tracking-[-0.25px] outline-[none] box-border m-0 p-0">$4M</p>
                                                 <span textstyle="text-ol-medium" class=" text-[10px] font-medium leading-[16px] tracking-[1.2px] uppercase outline-[none] box-border m-0 p-0 text-[rgb(255,_255,_255)] opacity-60">Opportunity value last month</span>
                                             </div>
@@ -142,13 +142,14 @@ const page = () => {
                                         <img alt="Contra pro stairs infographic" src="https://builds.contra.com/6470a7fe/assets/static/stairs.BdU9uAaC.webp" class="outline-[none] box-border m-0 p-0 absolute -right-[84px] bottom-0 select-none overflow-hidden max-w-full max-h-full h-full scale-[1.6]"></img>
                                     </div>
                                     <div class="outline-[none] box-border m-0 p-0 flex flex-col items-center justify-center w-full gap-[12px]">
-                                        <div class="outline-[none] box-border m-0 px-[24px] py-0 flex flex-row items-center justify-center w-full gap-[16px] text-[10px] font-medium leading-[16px] whitespace-nowrap uppercase tracking-[1.2px] text-[rgb(74,_82,_100)]">
-                                            <div class="outline-[none] box-border m-0 p-0 border-t-[1px_solid_rgb(208,_212,_220)] w-full h-px"></div>Companies Hiring On Contra
-                                            <div class="outline-[none] box-border m-0 p-0 border-t-[1px_solid_rgb(208,_212,_220)] w-full h-px"></div>
+                                        <div class="outline-[none] box-border m-0 py-0 px-3 a576:px-[24px] a576:py-0 flex flex-row items-center justify-center w-full gap-[16px] text-[10px] font-medium leading-[16px] whitespace-nowrap uppercase tracking-[1.2px] text-[rgb(74,_82,_100)]">
+                                            <div class="outline-[none] box-border m-0 p-0 border-t-[1px] border-solid border-[rgb(208,_212,_220)] w-full h-px"></div>
+                                            Companies Hiring On Contra
+                                            <div class="outline-[none] box-border m-0 p-0 border-t-[1px] border-solid border-[rgb(208,_212,_220)] w-full h-px"></div>
                                         </div>
-                                        <div class="outline-[none] box-border m-auto p-0 flex flex-row items-center justify-center gap-[16px] w-full">
-                                            <div class="outline-[none] box-border m-0 p-0 w-full">
-                                                <div class="outline-[none] box-border m-auto px-[48px] py-0 flex gap-[16px 8px] grid-cols-[repeat(auto-fill,_minmax(110px,_1fr))] flex-row justify-center">
+                                        <div class="outline-[none] box-border m-auto p-0 flex flex-row items-center justify-center gap-[16px] w-[286px] md:w-full">
+                                            <div class="outline-[none] box-border m-0 p-0  w-full">
+                                                <div class="outline-[none] box-border md:mx-auto md:px-[48px] md:py-0 md:flex grid gap-[16px_8px]  grid-cols-[repeat(3,minmax(80px,_1fr))] md:flex-row md:justify-center">
                                                     <div class="outline-[none] box-border m-0 p-0 w-full h-[40px] flex items-center justify-center">
                                                         <img alt="Framer" height="auto" src="https://builds.contra.com/6470a7fe/assets/static/framer.Dj7Gh_hW.webp" width="100%" class="outline-[none] box-border m-0 p-0 filter-none"></img>
                                                     </div>
@@ -167,7 +168,7 @@ const page = () => {
                                                     <div class="outline-[none] box-border m-0 p-0 w-full h-[40px] flex items-center justify-center">
                                                         <img alt="Spline" height="auto" src="https://builds.contra.com/6470a7fe/assets/static/spline.Borm_TrA.webp" width="100%" class="outline-[none] box-border m-0 p-0 filter-none"></img>
                                                     </div>
-                                                    <div class="outline-[none] box-border m-0 p-0 w-full h-[40px] flex items-center justify-center">
+                                                    <div class="outline-[none] box-border m-0 p-0 w-full h-[40px] a992:flex hidden items-center justify-center">
                                                         <img alt="Slice" height="auto" src="https://builds.contra.com/6470a7fe/assets/static/slice.B4p40kXG.webp" width="100%" class="outline-[none] box-border m-0 p-0 filter-none"></img>
                                                     </div>
                                                 </div>

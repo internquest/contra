@@ -29,8 +29,11 @@ export default function RootLayout({ children }) {
       >
         <div>
           <Navbar />
-          <div className="flex min-h-[calc(-64px+100vh)] ">
-            <Sidebar />
+          <div className="flex   ">
+            <div className="a992:block hidden ">
+
+              <Sidebar />
+            </div>
             {children}
           </div>
         </div>

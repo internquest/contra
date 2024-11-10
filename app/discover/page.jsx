@@ -2,9 +2,9 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className='ms:mt-0 flex-[1_1_0%] max-w-[1440px] w-full mx-auto bg-white relative transition-[width] duration-[750ms] '>
+        <div className='md:mt-0 flex-[1_1_0%] max-w-[1440px] w-full mx-auto bg-white relative transition-[width] duration-[750ms] '>
             <div className='grid gap-8 grid-cols-auto max-w-[1440px]'>
-                <section className='a1120:max-w-[1120px] md:max-w-[750px] md:gap-4 md:pt-0 md:px-4 md:pb-4 fex relative flex-col w-full my-0 mx-auto'>
+                <section className='max-w-[375px]  a1120:max-w-[1120px] md:max-w-[750px] md:gap-4 md:pt-0 md:px-4 md:pb-4 fex relative flex-col w-full my-0 mx-auto'>
                     <div navbarheight="64" class="outline-[none] box-border m-0 pt-[24px] px-0 pb-0 flex flex-col gap-[16px] top-[64px] w-full bg-[rgb(255,_255,_255)]">
                         <div class="outline-[none] box-border mx-[auto] my-0 p-0 flex flex-row items-center justify-between w-full gap-[16px]">
                             <div class="outline-[none] box-border m-0 p-0 flex flex-row items-center justify-center w-full">
@@ -33,7 +33,7 @@ const page = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div class="outline-[none] box-border m-0 p-0 leading-[0]">
+                            <div class="outline-[none] hidden a992:block box-border m-0 p-0 leading-[0]">
                                 <button fdprocessedid="vsno0l" class="outline-[none] box-border m-0 p-0 bg-transparent text-[rgb(34,_40,_52)] border-0 cursor-pointer [font-family:inherit] text-[14px] font-medium appearance-none min-w-[165px] flex-shrink-0 flex items-center justify-end gap-[6px] whitespace-nowrap">Sort by: Relevance
                                     <div class="outline-[none] box-border m-0 p-0 h-[16px] transform-none">
                                         <svg fill="none" focusable="false" height="16" role="img" stroke-width="1" viewBox="0 0 24 24" width="16" color="black" class="outline-[none] box-border m-0 p-0">
@@ -86,8 +86,8 @@ const page = () => {
                         <section className='relative flex flex-col gap-6 items-center'>
                             <div className='flex flex-col items-start self-stretch z-[1] gap-4'>
                                 <div className='relative items-stretch '>
-                                    <a aria-label="eugenciachir" href="https://contra.com/eugenciachir" role="region" target="_blank" class="outline-[none] box-border m-0 px-[24px] py-[32px] no-underline [color:inherit] cursor-pointer flex flex-row gap-[24px] relative w-full border-b-[1px_solid_rgb(229,_231,_235)] [transition:background-color_175ms_ease-out] bg-[rgb(255,_255,_255)]">
-                                        <div class="outline-[none] group box-border m-0 p-0 border-[1px] border-[solid] border-[rgb(249,250,251)] rounded-[10px] h-max flex-shrink-0 w-[261px]">
+                                    <a aria-label="eugenciachir" href="https://contra.com/eugenciachir" role="region" target="_blank" class="outline-[none] box-border  m-0 md:px-[24px] md:py-[32px] no-underline [color:inherit] cursor-pointer flex flex-col gap-4 py-6 px-0 md:flex-row md:gap-[24px] relative w-full border-b-[1px_solid_rgb(229,_231,_235)] [transition:background-color_175ms_ease-out] md:bg-[rgb(255,_255,_255)]">
+                                        <div class="outline-[none] group box-border m-0 p-0 border-[1px] border-[solid] border-[rgb(249,250,251)] rounded-[10px] h-max flex-shrink-0 md:w-[261px]">
                                             <div class="outline-[none] box-border m-0 p-0 relative mr-0">
                                                 <div class="outline-[none] box-border m-0 px-[16px] py-[24px] rounded-[unset] absolute group-hover:opacity-100 opacity-0 [transition:opacity_0.3s_ease-in-out] content-center h-full pointer-events-none right-0 mr-0">
                                                     <button aria-label="Next image" fdprocessedid="1drhj" class="outline-[none] box-border m-0 p-0 bg-[rgb(255,_255,_255)] [color:inherit]  cursor-pointer [font-family:inherit] [font-size:inherit] [font-weight:inherit] appearance-none h-[32px] w-[32px] rounded-[50%] flex justify-center items-center border-[1px] border-[solid] border-[rgb(208,212,220)] [box-shadow:rgba(228,_232,_247,_0.4)_0px_0px_80px_0px] pointer-events-auto">
